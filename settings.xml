@@ -1,7 +1,7 @@
 <settings>
 <servers>
   <server>
-    <id>nextwork-nextwork-devops-cicd</id>
+    <id>devops-project1-DevOps-Lohitaksh</id>
     <username>aws</username>
     <password>${env.CODEARTIFACT_AUTH_TOKEN}</password>
   </server>
@@ -9,14 +9,14 @@
 
 <profiles>
   <profile>
-    <id>nextwork-nextwork-devops-cicd</id>
+    <id>devops-project1-DevOps-Lohitaksh</id>
     <activation>
       <activeByDefault>true</activeByDefault>
     </activation>
     <repositories>
       <repository>
-        <id>nextwork-nextwork-devops-cicd</id>
-        <url>https://nextwork-471112976395.d.codeartifact.us-east-2.amazonaws.com/maven/nextwork-devops-cicd/</url>
+        <id>devops-project1-DevOps-Lohitaksh</id>
+        <url>https://devops-project1-593793060554.d.codeartifact.ap-south-1.amazonaws.com/maven/DevOps-Lohitaksh/</url>
       </repository>
     </repositories>
   </profile>
@@ -24,9 +24,9 @@
 
 <mirrors>
   <mirror>
-    <id>nextwork-nextwork-devops-cicd</id>
-    <name>nextwork-nextwork-devops-cicd</name>
-    <url>https://nextwork-471112976395.d.codeartifact.us-east-2.amazonaws.com/maven/nextwork-devops-cicd/</url>
+    <id>devops-project1-DevOps-Lohitaksh</id>
+    <name>devops-project1-DevOps-Lohitaksh</name>
+    <url>https://devops-project1-593793060554.d.codeartifact.ap-south-1.amazonaws.com/maven/DevOps-Lohitaksh/</url>
     <mirrorOf>*</mirrorOf>
   </mirror>
 </mirrors>
